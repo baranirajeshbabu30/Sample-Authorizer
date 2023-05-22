@@ -22,7 +22,7 @@ Resources:
         DefaultAuthorizer: CourseCognitoAuthorizer
         Authorizers:
           CourseCognitoAuthorizer:
-            UserPoolArn: '{{resolve:ssm:SkillHuntCognitoUserPoo}}'
+            UserPoolArn: '{{resolve:ssm:SkillHuntCognitoUserPool}}'
 
 
   HelloWorldFunction:
